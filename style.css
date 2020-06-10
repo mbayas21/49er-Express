@@ -1,0 +1,337 @@
+//@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #EFECCA;
+    padding:2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:22px;
+    color:green;
+    line-height:26px;
+    text-align: justify;
+}
+
+header{
+    text-align:center;
+    background-color: #A7A37E;
+    /*border-radius: 25px;*/
+    overflow:hidden;
+    
+}
+
+p{
+    text-indent: 5%;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    line-height:35px;
+}
+/*--Starting the navigation CSS style---*/
+nav{
+    width:100%;
+    margin:1px auto;
+    overflow:hidden;
+}
+nav ul{
+    list-style: none;
+    overflow:hidden;
+}
+nav li a{
+    background-color: #B0CC99;
+    border-right: 1px solid white;
+    color:#FAFAFA;
+    display:block;
+    float:left;
+    font-size: 120%;
+    font-weight:600;
+    padding:0.1%;
+    text-align:center;
+    text-decoration: none;
+    width:24%;
+    height:auto;
+    
+}
+nav li a:hover{
+    background: #737373;
+    color:green;
+}
+nav li a:active{
+    color:red;
+}
+
+
+/*--Ending the navigation CSS style---*/
+.banner{
+    width:99.70%;
+    overflow:hidden;
+    /*border:2px solid black;*/
+    margin:6px;
+    
+}
+.banner img{
+    width:100%;
+    /*height:auto;*/
+}
+#banner-left-img{
+    float:left;
+    width:45%;
+}
+
+#banner-right-img{
+    float:right;
+    width:45%;
+}
+section{
+    float:left;
+    width:55%;
+    padding:1%;
+    margin:1% 0;
+    background-color: #A7A37E;
+}
+aside{
+    float:right;
+    width:40%;
+    padding 1%;
+    margin: 1% auto;
+    background-color: #A7A37E;
+}
+footer{
+    float:left;
+    width:96%;
+    padding:2%;
+    margin: 1% 0;
+    background-color: #A7A37E;
+    text-align: center;
+}
+
+
+/*beggining CSS for ID's*/
+#one-third{
+    display:block;
+    float:left;
+    padding 2%;
+    margin: 0 1%;
+}
+#two-third{
+    display:block;
+    float:left;
+    padding 2%;
+    margin: 0 1%;
+}
+#three-third{
+    display:block;
+    float:left;
+    padding 2%;
+    margin: 0 1%;
+}
+#home-form{
+    padding:2%;
+    margin:0;
+    text-align: center;
+}
+#social{
+    text-align: center;
+    float:right;
+    width:48%;
+    padding 1%;
+    margin: 1% auto;
+}
+#uncc-logo{
+    float:left;
+    width:50%;
+    height:auto
+    margin:5px 5px;
+    
+}
+#cfa-1{
+    float:left;
+    width:50%;
+    height:auto
+    margin:5px 5px;
+    
+}
+#cfa-2{
+    float:left;
+    width:50%;
+    height:auto
+    margin:5px 5px;
+    
+}
+#pexpress-1{
+    float:left;
+    width:50%;
+    height:auto
+    margin:5px 5px;
+    
+}
+#pexpress-2{
+    float:right;
+    width:50%;
+    margin:5px auto;
+    
+}
+#social-media{
+    float:right;
+    width:50%;
+    margin:5px auto;
+}
+#wendys-2{
+    float:right;
+    width:50%;
+    margin:5px auto;
+}
+#wendys-1{
+    float:left;
+    width:50%;
+    height:auto
+    margin:5px 5px;
+    
+}
+#pexpress-1{
+    float:right;
+    width:50%;
+    margin:5px auto;
+}
+#pexpress-2{
+    float:right;
+    width:50%;
+    margin:5px auto;
+}
+#social-media1{
+    float:right;
+    width:48%;
+    padding 1%;
+    margin: 1% auto;
+}
+#social-media2{
+    float:left;
+    width:40%;
+    padding 1%;
+    margin: 1% auto;
+}
+#tnails{
+    float:left;
+    /*width: 500px;*/
+    width:50%;
+    /*border:5px solid black;*/
+}
+#tnails img{
+    width:100%;
+    height: auto;
+}
+
+#tnails figcaption{
+    text-align: center;
+}
+#tnails button{
+    text-align: center;
+}
+#tnails2{
+    float:right;
+    /*width: 500px;*/
+    width:50%;
+    /*border:5px solid black;*/
+}
+#tnails2 img{
+    /*width:-100%*/
+}
+#tnails2 figcaption{
+    text-align: center;
+}
+#tnails2 img{
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+    width:33%;
+}
+#imgBig{
+    width:10%;
+}
+#imgBig2{
+    width:100%;
+}
+#imgBig3{
+    width:33%;
+}
+
+#pics{
+    float:none;
+}
+#menu-header{
+    font-family: cursive;
+    font-size:16px;
+    text-align: center;
+}
+
+.buttons{
+    width:40%;
+    float:none;
+}
+
+#tnails{
+    float:left;
+    width: 500px;
+}
+.left-div{
+    float:left;
+    width:48%;
+    height: auto;
+
+}
+.left-div img{
+    width: 100%;
+}
+.right-div{
+    float:right;
+    width:48%;
+    height: auto;
+    text-align: justify;
+    overflow: hidden;
+    padding:1%;
+}
+#about-us2 form{
+    float:left;
+    width:49%;
+    height: auto;
+    text-align: center;
+}
+
+.right-div img{
+    width:100%;
+}
+#forms-div{
+    float:left;
+    width:49%;
+    height: auto;
+    text-align: justify;
+    /*border: 2px solid black;*/
+}
+#forms-div2{
+    float:right;
+    width:48%;
+    height: auto;
+    /*border: 2px solid black;*/
+    text-align: center;
+    overflow: hidden;
+    padding:1%;
+}
+#forms-div form{
+    padding:0 5%;
+    overflow: auto;
+}
+#forms-div2 img{
+    width:100%;
+}
+.gallery-forms{
+    float:right;
+    width:48%;
+    height: auto;
+    text-align: justify;
+}
+
+/*ending CSS for ID's*/
