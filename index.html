@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Website for students to use and find food services on UNCC Campus">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href = "images/order-now.png" >
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel= "stylesheet">
+        <!-- <script type ="text/javascript" src ="cookies.js"></script> -->
+        <!-- <script type = "text/javascript">
+         function WriteCookie()
+            {
+               if( document.myform.customer.value == "" ){
+                  /*alert("Enter some value!");*/
+                  return;
+               }
+               cookievalue= escape(document.myform.customer.value) + ";";
+               document.cookie="name=" + cookievalue;
+               document.write ("Setting Cookies : " + "email=" + cookievalue );
+            }  alert("Cookie Entered");
+        </script> -->
+        <title>49er Food Express</title>
+    </head>
+<body>
+    <header>
+        <div id="header-contact">
+            <span>
+                <img src="images/header-phone-icon.png">
+            </span>
+            <p>704-123-4567</p>
+            <span>
+               <a href="mailto:mauribayas_21@hotmail.com"><img src="images/header-email-icon.jpg"></a>
+            </span>
+            <p><a href="mailto:mauribayas_21@hotmail.com">info@foodexpress.com</a></p>
+        </div>
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/food-express.jpg" alt="logo icon">
+            </a>
+        </div>
+        <nav id="main-nav">
+            <ul id="nav_items">
+                <li class="nav__item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="forms.html">Place Order</a>
+                </li>
+                <li class="nav__item">
+                    <a href="gallery.html">Food Gallery</a>
+                </li>
+                <li class="nav__item">
+                    <a href="contact_services.html">About Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <div id="banner-info">
+                <h1>Place Order Now</h2>
+                <h3>Don't Wait!</h3>
+                <h3>Let's Start to order now food now!</h4>
+                <a href="gallery.html">
+                    <button class="banner-info__button">Check Out Menu</button>
+                </a>
+            </div>
+            <!--<img id ="banner-left-img" src="images/food-ordering-banner.png" alt ="banner image">-->
+            <!--<img id="banner-right-img" height="450" src="images/burger-and-fries-hi.png" alt ="banner image">-->   
+        </div>
+        <section id="info-section">
+            <div id="featured-restaurants">  
+                <h1>Our Featured Restaurants</h1>
+                <img src="images/CFA-Logo2.png">
+                <img src="images/Wendys-logo.png">
+                <img src="images/pandaExpress-Logo.png">
+            </div> 
+            <!-- <div id="acceptedPayments-div">
+                <h1>Featured</h1>
+                <img src ="images/accepted-creditcards.png" alt="accepted credit cards">
+            </div> -->
+        </section>
+    </main>
+    <footer id="footer">
+        <!-- <h2>Contact Us</h2> -->
+        <div class="footer-information">
+            <img class ="footer-image" src="images/order-now.png">
+        </div>
+        <div  class="footer-information">
+            <form> 
+                Subscribe below for new menu items<br>
+                Email: <input type="text" name="customer"/>
+                <input type="button" value="Subscribe" onclick="WriteCookie();"/>
+            </form>
+        </div>
+        <!-- <div class="footer-information">
+            <img class="footer-image" src = "images/accepted-creditcards.png" alt ="accepted credit cards">
+        </div> -->
+        <div class="footer-information">
+            <p class="footer-information__address">123 Main Road</p>
+            <p class="footer-information__address">Charlotte, NC 28278</p>
+        </div>
+    </footer>
+</body>
+</html>
